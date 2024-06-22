@@ -39,7 +39,7 @@ const Pagination = ({ currentPage, totalPages, handlePageChange }) => {
             Showing
           </span>
           <span className="text-sm font-semibold font-inter leading-[21px] mr-2">
-            {currentPage * 7 - 6}-{currentPage * 7}
+            {currentPage * 10 - 9}-{currentPage * 10}
           </span>
           <span className="text-sm font-normal font-inter leading-[21px] mr-1">
             of
