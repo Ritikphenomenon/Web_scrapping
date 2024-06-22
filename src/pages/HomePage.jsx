@@ -10,7 +10,7 @@ const HomePage = () => {
   const [companies, setCompanies] = useState([]);
   const [selectedCompanies, setSelectedCompanies] = useState([]);
   const [currentPage, setCurrentPage] = useState(1);
-  const [perPage] = useState(6); // Number of companies per page
+  const [perPage] = useState(7); // Number of companies per page
 
   useEffect(() => {
     fetchCompanies();
