@@ -52,10 +52,10 @@ const CompanyList = ({
             />
           ))}
           {/* Add placeholder rows if there are fewer than 7 companies */}
-          {Array.from({ length: Math.max(0, 10 - companies.length) }).map(
+          {Array.from({ length: Math.max(0, 8 - companies.length) }).map(
             (_, index) => (
               <tr key={`placeholder-${index}`} className="h-[57px]">
-                <td colSpan="10" className="h-[57px]"></td>
+                <td colSpan="8" className="h-[57px]"></td>
               </tr>
             )
           )}
