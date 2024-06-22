@@ -37,7 +37,7 @@ const CompanyDetails = () => {
       .then(() => {
         setUrl(""); // Clear input after successful addition
       })
-      .catch((error) => console.error("Error adding company:", error));
+      .catch((error) => console.error("Error adding company: list so,error", error));
   };
 
   if (loading) {
