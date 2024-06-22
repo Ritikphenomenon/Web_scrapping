@@ -53,7 +53,7 @@ Access a detailed view of each company, including:
 ### Clone the Project
 
 ```bash
-git clone https://github.com/Ritikphenomenon/Web_scrapping
+git clone https://github.com/Ritikphenomenon/jobEngine.git
 ```
 
 ### Running the Client
@@ -115,6 +115,10 @@ git clone https://github.com/Ritikphenomenon/Web_scrapping
     - Click on a company in the table to view detailed information.
     - This view includes all extracted data along with a screenshot of the company's homepage.
     - Ensure the page is responsive for a seamless experience on mobile devices.
+
+## Demo Video
+
+[Watch Demo Video](https://youtu.be/TXoXw9mYqng)
 
 ## About Me
 
